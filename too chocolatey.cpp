@@ -8,7 +8,9 @@ int main() {
     int t;
     cin >> t;
 
-    while (t--) {
+
+    while (t--)
+     {
         int n;
         cin >> n;
 
@@ -24,6 +26,7 @@ int main() {
         }
 
       
+        
         vector<int> v;
         for (auto it : freq) {
             int value = it.first;
@@ -55,5 +58,6 @@ int main() {
             cout << "Bob\n";
     }
 
+    
     return 0;
 }
